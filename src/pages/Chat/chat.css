@@ -1,0 +1,185 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.chatContainer{
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin:10px;
+}
+
+.chatOptions{
+    width: 100%;
+    max-height: 100%;
+    position: static;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.chatOneOption{
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    color: #1E2761;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.chatOneOption:hover{
+    background-color: #1E2761;
+    color: #fff;
+    transition: 500ms;
+}
+
+.chatText{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactName{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.messagingArea{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px #7A2048;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.messages{
+    max-height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.typing{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.messageInput{
+    width: 100%;
+}
+
+.sent{
+    width: 99%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.sentMssg{
+    max-width: 48%;
+    padding: 5px;
+    background-color: #1E2761;
+    border-radius: 5px;
+    display: flex;
+    overflow-wrap: anywhere;
+
+
+}
+
+.rec{
+    width: 99%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.recMssg{
+    max-width: 48%;
+    padding: 5px;
+    background-color: #7A2048;
+    border-radius: 5px;
+    overflow-wrap: anywhere;
+}
+
+.chatContact{
+    width: 100%;
+    max-height: 100%;
+    position: static;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.chatPerson{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    max-width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.chatPerson:hover{
+    color: #fff;
+    background-color: #7A2048;
+    transition: 500ms;
+}
+.chatPersonSelected {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    min-width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #7A2048;
+}
+
+.searchContact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatNoData{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,75 @@
+
+    .toolbar{
+        max-width:100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        height: 11%;
+        flex-wrap: wrap;
+        overflow-x:hidden ;
+    }
+    .navItems{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        color: #f2f2f2;
+    }
+
+    .navItem {
+        margin-left:10px;
+        margin-right:10px;
+        cursor: pointer;
+        padding-left:5px;
+        padding-right:5px;
+        border-radius: 5px;
+    }
+    
+    .navItem:hover{
+        color:#1E2761;
+        background-color:#f2f2f2;
+        transition:300ms;
+    }
+
+    .logo{
+        cursor: pointer;
+        color:#d9d9d9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .link{
+        text-decoration: none;
+        color: #f2f2f2;
+    }
+    .navItem .link:hover{
+        color: #1E2761;
+    }
+
+    .loginBtns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .navAccount{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .navAccountName{
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .navAccountName:hover{
+        background-color: #f2f2f2;
+        color: #1E2761;
+        transition: 300ms;
+    }

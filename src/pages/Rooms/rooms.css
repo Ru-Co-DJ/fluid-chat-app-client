@@ -1,0 +1,37 @@
+.roomContainer{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+.rooms{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.room{
+    width: 180px;
+    height: 180px;
+    border: 1px solid;
+    box-shadow: 2px 2px 50px #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 30px;
+}
+.room:hover{
+    box-shadow: 2px 2px 20px #d45e93;
+
+}
+
+
